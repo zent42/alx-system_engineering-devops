@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(({TRUEKNOWLEDGE:-0} + 128 ))
+TRUEKNOWLEDGE=${TRUEKNOWLEDGE:-0}; echo $((TRUEKNOWLEDGE + 128))
+
