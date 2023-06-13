@@ -1,3 +1,4 @@
 #!/bin/bash
-echo $(($TRUSKNOWLEDGE + 128)) 
+echo "$(( ${TRUEKNOWLEDGE:-0} + 128 ))"
+ 
 
