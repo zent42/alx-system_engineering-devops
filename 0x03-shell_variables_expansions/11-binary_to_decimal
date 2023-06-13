@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $((2#$BINARY)
+
+BINARY="10101" echo $((2#$BINARY))
+
