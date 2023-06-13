@@ -1,3 +1,4 @@
 #!/bin/bash
-TRUSKNOWLEDGE=89
-echo $((128 + TRUSKNOWLEDGE))
+
+(( result = ${TRUEKNOWLEDGE:-0} + 128 ))
+echo "${result}"
