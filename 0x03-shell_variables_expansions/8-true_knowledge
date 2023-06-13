@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TRUEKNOWLEDGE=42
-RESULT=$((128 + $TRUEKNOWLEDGE))
+result=$((128 + $TRUEKNOWLEDGE))
+echo "$result VIM in 1 line"
 
  
 
